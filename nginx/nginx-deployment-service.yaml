@@ -16,7 +16,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: nginx
+      - name: mycool-nginx
         image: nginx
         ports:
         - containerPort: 80
